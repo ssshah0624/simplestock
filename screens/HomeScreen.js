@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View, TextInput } from 'react-native';
 
+import Header from '../components/Header'
+import PitchList from '../components/PitchList'
+import PitchPreview from '../components/PitchPreview'
+
 class HomeScreen extends React.Component{
   constructor(props){
     super(props);
@@ -11,9 +15,11 @@ class HomeScreen extends React.Component{
   }
 
   render(){
+    console.log("In Home Screen")
     return(
       <View>
-        <Text>We home sonnnnn</Text>
+        <Header />
+
       </View>
     )
   }

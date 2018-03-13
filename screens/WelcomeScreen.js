@@ -5,7 +5,6 @@ import SplashScreen from 'react-native-splash-screen';
 import firebase from 'react-native-firebase';
 
 import Welcome from '../components/Welcome'
-import Home from '../components/Home'
 
 
 class WelcomeScreen extends React.Component{

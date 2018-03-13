@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View, Button, Image, Modal, TouchableHighlight } from 'react-native';
 
+import SignIn from '../components/SignIn'
+
 const LoginModal = (props) => (
   <Modal
     animationType="slide"
